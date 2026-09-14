@@ -31,6 +31,6 @@ Agentation is omitted from the client runtime. No environment variables or secre
 
 ## Calendar verification
 
-The live Calendly iframe could not be verified in the embedded automation browser, although the direct event page loaded. A booking link appears if the embed fails to load, and a link is also provided when JavaScript is disabled. Before launch, check that the calendar loads and displays the correct event and available times on the target domain in the intended browser.
+The Calendly calendar was verified rendering on the published Vercel page; no booking was submitted. A booking link appears if the embed fails to load, and a link is also provided when JavaScript is disabled. After deploying your copy, check that the calendar loads and displays the correct event and available times on your domain.
 
 Logos are the assets supplied from the Zalos design. The Manrope license is included in [licenses/Manrope-LICENSE.txt](licenses/Manrope-LICENSE.txt).

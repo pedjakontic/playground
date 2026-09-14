@@ -49,6 +49,6 @@ The live page linked above was deployed through the Vercel CLI. Automatic deploy
 
 The main route is `/landing`; `/`, `/01-cover-zalos-lines`, and `/demo/01-cover-zalos-lines` render the same page. The logo links to `/`; the Back and legal links point to the supplied Zalos URLs. Review these destinations for your site. Assets use site-root URLs, so adjust them if you configure a Next.js `basePath`.
 
-The live Calendly iframe could not be verified in the embedded automation browser, although the direct event page loaded. The page includes a fallback booking link if the embed fails and a link for JavaScript-disabled browsers. Before launch, check that the calendar loads and shows the correct event and available times on the target domain in the intended browser.
+The Calendly calendar was verified rendering on the published Vercel page; no booking was submitted. The page includes a fallback booking link if the embed fails and a link for JavaScript-disabled browsers. After deploying your copy, check that the calendar loads and shows the correct event and available times on your domain.
 
 Logos are the assets supplied from the Zalos design. The Manrope license is included in [licenses/Manrope-LICENSE.txt](licenses/Manrope-LICENSE.txt).

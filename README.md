@@ -2,9 +2,13 @@
 
 A complete Next.js App Router landing page with the supplied Zalos design, responsive layouts, balanced subtitle wrapping, and Calendly booking.
 
+[View the live page](https://playground-henna-theta.vercel.app/landing)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpedjakontic%2Fplayground&project-name=zalos-landing&repository-name=zalos-landing)
+
 ## Create your private copy
 
-1. Accept your GitHub repository invitation and open this template repository.
+1. Open this template repository. If its visibility has been changed back to private, accept your repository invitation first.
 2. Click **Use this template**, then **Create a new repository**.
 3. Choose your owner and repository name, select **Private**, and create the repository.
 4. Clone your new repository and run the commands below from its root.
@@ -34,6 +38,8 @@ Additional checks are `npm run lint` and `npm run typecheck`.
 ## Deploy and configure
 
 Import your new repository into Vercel, select the **Next.js** framework preset, and use the repository root as the project root. No environment variables or secrets are required. Agentation is omitted from the client runtime.
+
+The live page linked above was deployed through the Vercel CLI. Automatic deployments from this GitHub repository are not connected yet; they require the repository owner's GitHub login connection in Vercel. The Deploy with Vercel button creates a separate project in your own account and requires this source repository to remain public during setup. If it becomes private, use the invitation and template-copy flow instead.
 
 - Content, links, and logos: `src/components/landing-page.tsx`.
 - Calendly event: `bookingUrl` in `src/components/booking-calendar.tsx`.
